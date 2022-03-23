@@ -1,8 +1,19 @@
 import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
 
 function NexWeek() {
   return (
-    <div>NexWeek</div>
+    <div>
+      
+      <div>
+        Next Week!
+      </div>
+
+
+
+    <Footer/>
+    </div>
   )
 }
 

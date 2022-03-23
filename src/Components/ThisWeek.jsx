@@ -1,8 +1,17 @@
 import React from 'react'
+import Footer from './Footer'
+import Header from './Header'
 
 function ThisWeek() {
   return (
-    <div>ThisWeek</div>
+    <div>
+        
+        <div>
+            This Week
+        </div>
+
+        <Footer/>
+    </div>
   )
 }
 
