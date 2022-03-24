@@ -2,11 +2,9 @@ import React from 'react'
 import Nav from './Nav'
 function Header() {
   return (
-    <div>
+    <div className='header'>
 
-        <div>
-            Movie Club Society
-        </div>
+        <center><h2 className='neonText'> Movie Club Society</h2></center>
         <Nav/>
 
 

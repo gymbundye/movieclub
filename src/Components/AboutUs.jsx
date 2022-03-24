@@ -8,7 +8,7 @@ function AboutUs() {
     <div>
         
         <div>
-            About Us!
+            What is Movie Club Society?
         </div>
 
 
