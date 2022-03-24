@@ -7,6 +7,7 @@
   border: solid;
   margin: 5px;
   border-radius: 5px;
+  background-color: rgb(0, 0, 0);
 
 
 }
@@ -23,9 +24,9 @@
       0 0 151px #0fa;
 }
 
-h2 {
-  font-size: 4.2rem;
-  animation: flicker 1.5s infinite alternate;     
+h2, nav {
+  
+  animation: flicker 2.5s infinite alternate;     
 }
 
 /* Flickering animation */
@@ -62,12 +63,19 @@ h2 {
 
 body {
   font-size: 18px;
-  font-family: cursive;
-  background-color: #010a01;
+  font-family: fantasy;
+  min-height: 100vh;
+  
 }  
 
 h1, h2 {
   text-align: center;
   text-transform: uppercase;
   font-weight: 400;
+}
+.footer{
+  background-color: black;
+  border: solid;
+  
+
 }
