@@ -76,6 +76,12 @@ h1, h2 {
 .footer{
   background-color: black;
   border: solid;
-  
 
+
+}
+.about{
+  margin: 5px;
+  padding: 5px;
+  border: solid;
+  border-radius: 5px;
 }
