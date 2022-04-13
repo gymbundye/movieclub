@@ -88,6 +88,7 @@ h1, h2 {
   padding: 5px;
   border: solid;
   border-radius: 5px;
+  grid-area: about;
 }
 body{
   background-color: red;
@@ -97,10 +98,26 @@ body{
   padding: 5px;
   border: solid;
   border-radius: 5px;
+  grid-area: who;
 }
 .rules{
   margin: 5px;
   padding: 5px;
   border: solid;
   border-radius: 5px;
+  grid-area: rules;
+}
+.AboutUs{
+  display: grid;
+  grid-template-areas: "about about about about"
+                       "about about about about"
+                       "about about about about"
+                       "who who rules rules"
+                       "who who rules rules"
+                       "who who rules rules"
+                       "who who rules rules"
+  ;
+  grid-template-columns: 50% 1fr 1fr ;
+  grid-template-rows: 50%  1fr;
+
 }
