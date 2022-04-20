@@ -80,6 +80,7 @@ h1, h2 {
   border: solid;
   border-radius: 5px;
   margin-top: 100px;
+  
 
 
 }
@@ -89,6 +90,8 @@ h1, h2 {
   border: solid;
   border-radius: 5px;
   grid-area: about;
+  box-shadow: 10px 10px 10px;
+  text-shadow: gold 1px 1px 1px;
 }
 body{
   background-color: red;
@@ -99,6 +102,7 @@ body{
   border: solid;
   border-radius: 5px;
   grid-area: who;
+  box-shadow: 10px 10px 10px;
 }
 .rules{
   margin: 5px;
@@ -106,6 +110,7 @@ body{
   border: solid;
   border-radius: 5px;
   grid-area: rules;
+  box-shadow: 10px 10px 10px;
 }
 .AboutUs{
   display: grid;
@@ -119,6 +124,6 @@ body{
                        "who rules rules rules"
   ;
   grid-template-columns: 25% 1fr 1fr ;
-  grid-template-rows: 50%  1fr;
+  grid-template-rows:  10% 10fr;
 
 }
