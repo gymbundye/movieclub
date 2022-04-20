@@ -93,9 +93,6 @@ h1, h2 {
   box-shadow: 10px 10px 10px;
   text-shadow: gold 1px 1px 1px;
 }
-body{
-  background-color: red;
-}
 .who{
   margin: 5px;
   padding: 5px;
@@ -111,6 +108,7 @@ body{
   border-radius: 5px;
   grid-area: rules;
   box-shadow: 10px 10px 10px;
+  text-shadow: gold 1px 1px 1px;
 }
 .AboutUs{
   display: grid;
