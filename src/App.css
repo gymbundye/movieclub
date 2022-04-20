@@ -109,15 +109,16 @@ body{
 }
 .AboutUs{
   display: grid;
-  grid-template-areas: "about about about about"
+  grid-template-areas: 
                        "about about about about"
                        "about about about about"
-                       "who who rules rules"
-                       "who who rules rules"
-                       "who who rules rules"
-                       "who who rules rules"
+                       "about about about about"
+                       "who rules rules rules"
+                       "who rules rules rules"
+                       "who rules rules rules"
+                       "who rules rules rules"
   ;
-  grid-template-columns: 50% 1fr 1fr ;
+  grid-template-columns: 25% 1fr 1fr ;
   grid-template-rows: 50%  1fr;
 
 }
