@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Footer from './Footer'
+
 
 function AboutUs() {
   return (
@@ -26,7 +26,7 @@ function AboutUs() {
           <li>If it is your Birthday month you pick a movie for all to watch.</li>
         </ul>
       </div>
-    <Footer/>
+    
     </div>
   )
 }

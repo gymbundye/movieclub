@@ -4,7 +4,7 @@ function Nav2(){
     return (
         
         <nav>
-            <ul>
+            <ul className="navLinks">
             <Link style={{textDecoration: "none"}} to ='AboutUs'>
             <li>
                 About Us!

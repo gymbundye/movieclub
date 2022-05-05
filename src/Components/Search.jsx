@@ -1,6 +1,6 @@
 import React, {useState, useEffect, useContext} from "react";
 import axios from "axios";
-import Footer from "./Footer";
+
 
     
      
@@ -59,7 +59,7 @@ import Footer from "./Footer";
                     </div>
                     
             ))}
-    <Footer/>
+    
     </div>
     )
 }
