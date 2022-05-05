@@ -1,8 +1,17 @@
 import React from 'react'
+import Nav2 from './Nav2'
 
 function Footer() {
   return (
-    <div className='footer'>Contact Us!</div>
+    
+      <div className='footer'>
+        <Nav2/>
+      </div>
+      
+    
+    
+    
+    
   )
 }
 

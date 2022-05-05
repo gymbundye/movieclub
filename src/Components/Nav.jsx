@@ -5,49 +5,20 @@ function Nav(){
         
         <nav className="neonText">
             <ul className="navLinks">
-
-            <Link style={{textDecoration: "none"}} to ='AboutUs'>
-            <li>
-                About Us!
-            </li> 
-            </Link>
-
             <Link style={{textDecoration:"none"}} to='ThisWeek'>
                 <li>This Week!</li>
             </Link>
-
             <Link style={{textDecoration:"none"}} to='NextWeek'>
             <li>
                 Next Week!
             </li>
             </Link>
-
             <Link style={{textDecoration:"none"}} to='LastWeek'>
             <li>
                 Last Week!
             </li>
-            </Link>
-            <Link style={{textDecoration:"none"}} to='Search'>
-            <li>
-                Search!
-            </li>
-            </Link>
-    
-
-        
-        
-
-
-
-
-
+            </Link>        
             </ul>
-
-
-
-
-
-
         </nav>
 
 
