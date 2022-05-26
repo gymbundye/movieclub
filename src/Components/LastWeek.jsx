@@ -23,7 +23,7 @@ import axios from "axios";
       <div className="NextWeek">
            
       <h2 className="movie-title"><center>{query.title}</center></h2>
-     <img className="imgDiv" src="/images/popcorn.jpg"></img>
+     <img className="imgDiv" src={query.poster_path}></img>
 
       <center><p className="movie-tagline">{query.tagline}</p></center>
       <p className="overview">{query.overview}</p>
