@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className='header'>
 
-        <center><h2 className='neonText'> Movie Club Society</h2></center>
+        <center><h2 className='neonText'>Sons' of the Marianne</h2></center>
         <Nav/>
 
 
