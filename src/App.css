@@ -5,9 +5,12 @@
 }
 .header{
   border: solid;
+  border-color: rgb(255, 115, 0);
+  color: rgb(255, 115, 0);
   margin: 5px;
   border-radius: 5px;
-  background-color: rgb(26, 25, 25);
+  background-color: rgb(37, 12, 128);
+  
 
 
 }
@@ -26,7 +29,7 @@
 
 h2, nav {
   
-  animation: flicker 2.5s infinite alternate;     
+  animation: flicker 1.5s infinite alternate;     
 }
 
 /* Flickering animation */
