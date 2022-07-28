@@ -37,11 +37,11 @@ import axios from "axios";
     return(
         <div className="Search">
             <form>
-                <h2 className="searchbar">
+                <h3 className="searchbar">
                 Have a look through our huge database for Movies young and old!
-                </h2>
-                <input className="searchBar" type="text" placeholder="Search!" value={query} onChange={search=>(Searching(search))}></input>
-            </form>
+                
+             <center><input className="searchBar" type="text" placeholder="Search!" value={query} onChange={search=>(Searching(search))}></input></center>
+            </h3></form>
             {search.map((search, index)=>(
                 <div key={index}>
                         <div className="poster">

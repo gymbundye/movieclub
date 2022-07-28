@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Nav2(){
     return (
         
-        <nav>
+        <nav className="nav">
             <ul className="navLinks">
             <Link style={{textDecoration: "none"}} to ='AboutUs'>
             <li>
