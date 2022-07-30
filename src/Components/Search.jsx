@@ -43,14 +43,18 @@ import axios from "axios";
              <center><input className="searchBar" type="text" placeholder="Search!" value={query} onChange={search=>(Searching(search))}></input></center>
             </h3></form>
             {search.map((search, index)=>(
+                <div className="search">
+                
                 <div key={index}>
+                       
                         <div className="poster">
-                        <p>{search.title}</p>
+                       <center> <p>{search.title}</p></center>
                         <p>{search.tagline}</p>
                         <p>{search.overview}</p>
-                        <img width="50%" alt="Movie Posters" src={`https://image.tmdb.org/t/p/w500${search.poster_path}`}/>
+                       <center> <img width="50%" alt="Movie Posters" src={`https://image.tmdb.org/t/p/w500${search.poster_path}`}/></center>
                         <br/>
-                    
+                        
+                    </div>
                     </div> 
                         
                         

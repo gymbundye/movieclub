@@ -31,7 +31,7 @@ import axios from "axios";
 
             <p className="movie-tagline"><center>{query.tagline}</center></p>
             <p className="overview">{query.overview}</p>
-            <iframe className="frame" width="574" height="323" src="https://www.youtube.com/embed/CsAChn35HSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe className="frame" width="300" height="300" src="https://www.youtube.com/embed/CsAChn35HSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             {console.log(query)}
             
         </div>
