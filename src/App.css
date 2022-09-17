@@ -94,8 +94,11 @@ h1, h2 {
   border: solid;
   border-radius: 5px;
   grid-area: about;
-  box-shadow: 10px 10px 10px;
-  text-shadow: gold 1px 1px 1px;
+  box-shadow: 10px 10px 10px black;
+  color: rgb(255, 115, 0);
+  text-shadow: black 1px 1px;
+
+  background-color: rgb(37, 12, 128);
 }
 .who{
   margin: 5px;
@@ -104,6 +107,11 @@ h1, h2 {
   border-radius: 5px;
   grid-area: who;
   box-shadow: 10px 10px 10px;
+  color: rgb(255, 115, 0);
+  background-color: rgb(37, 12, 128);
+  box-shadow: 10px 10px 10px black;
+  text-shadow: 1px 1px black;
+  
 }
 .rules{
   margin: 5px;
@@ -112,7 +120,11 @@ h1, h2 {
   border-radius: 5px;
   grid-area: rules;
   box-shadow: 10px 10px 10px;
-  text-shadow: gold 1px 1px 1px;
+  color: rgb(255, 115, 0);
+  background-color: rgb(37, 12, 128);
+  text-shadow: black 1px 1px;
+  box-shadow: black 10px 10px 10px;
+  
 }
 .AboutUs{
   display: grid;
@@ -130,13 +142,17 @@ h1, h2 {
 
 }
 .searchbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border: solid;
   border-radius: 5px;
   margin: 5px;
-  padding: 5px;
+  padding: 15px;
   border: solid;
   border-color: rgb(255, 115, 0);
   color: rgb(255, 115, 0);
+  text-shadow: 1px 1px black ;
   margin: 5px;
   border-radius: 5px;
   background-color: rgb(37, 12, 128);
@@ -148,9 +164,13 @@ h1, h2 {
   border: solid;
   border-color: rgb(255, 115, 0);
   color: rgb(255, 115, 0);
+  text-shadow: 2px 2px  black;
   margin: 5px;
   border-radius: 5px;
   background-color: rgb(37, 12, 128);
+  max-width: 600px;
+  display: flex;
+  align-items: center;
 }
 .NextWeek{
   border: solid;
@@ -160,4 +180,8 @@ h1, h2 {
   border-color: rgb(255, 115, 0);
   color: rgb(255, 115, 0);
   background-color: rgb(37, 12, 128);
+}
+.poster{
+  border-radius: 5px;
+  border: solid;
 }

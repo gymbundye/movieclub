@@ -47,11 +47,13 @@ import axios from "axios";
                 
                 <div key={index}>
                        
-                        <div className="poster">
+                        <div>
                        <center> <p>{search.title}</p></center>
                         <p>{search.tagline}</p>
                         <p>{search.overview}</p>
-                       <center> <img width="50%" alt="Movie Posters" src={`https://image.tmdb.org/t/p/w500${search.poster_path}`}/></center>
+                       <center> <img width="50%" alt="Movie Posters" className="poster" src={`https://image.tmdb.org/t/p/w500${search.poster_path}`}/></center>
+                       <p>Released: {search.release_date}</p>
+                       <p>Users Rated this  {search.vote_average}</p>
                         <br/>
                         
                     </div>
