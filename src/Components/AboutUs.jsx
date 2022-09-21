@@ -18,9 +18,9 @@ function AboutUs() {
          We have seen a lot of garbage movies this way. Part of the fun of the club is that you never know what you are going to get! </p>
     
     <div className='who'><center> Who are we?</center>
-    <img src="/images/3d icon.png" alt="3d glasses" width={"100"}/>
-    <img src="/images/popcorn.png" alt="Popcorn Tub" width={"100"}/>
-    <img src="/images/directorchair.png" alt="Directors Chair" width={"100"}/>
+    <img src="/images/3d icon.png" alt="3d glasses" width={"100%"}/>
+    <img src="/images/popcorn.png" alt="Popcorn Tub" width={"100%"}/>
+    <img src="/images/directorchair.png" alt="Directors Chair" width={"100%"}/>
     </div>
     <div className='rules'>Rules:
       
