@@ -1,3 +1,18 @@
+Movie Club
+"Sons of the Marianne" (current title)
+
+Will be an application to help maintian movie information and stats for our Movie Club.
+Users will (eventually) be able to add movies to a shared list, and add to a personal list.
+
+
+upcoming features:
+  comments on movies
+  pagination/multiple movies on a page
+  shared database
+  personal database
+  voting
+  new releases
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
