@@ -8,7 +8,7 @@ function AboutUs() {
     <div className='AboutUs'>
         
         
-        <p className='about'><center>Who are the Sons  of the Marianne?</center><br></br>
+        <p className='about'>Who are the Sons  of the Marianne?<br></br>
        
          We LOVE movies. Who doesn't. But during the dark times of the Pandemic my two friends and I could no longer go out and enjoy
          going to the movies in the same way. New movies were not coming out, and if they 
